@@ -36,6 +36,17 @@ namespace EXE5_20210140016_KELOMPOK3
             raihan.next = newnode;
             aria = newnode;
         }
+        public void delete()
+        {
+            if (raihan == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            raihan = raihan.next;
+            if (raihan == null)
+                aria = null;
+        }
     }
     internal class Program
     {
