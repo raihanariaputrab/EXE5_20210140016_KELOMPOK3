@@ -11,6 +11,10 @@ namespace EXE5_20210140016_KELOMPOK3
         public string name;
         public Node next;
     }
+    class queue
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
