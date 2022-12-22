@@ -47,6 +47,10 @@ namespace EXE5_20210140016_KELOMPOK3
             if (raihan == null)
                 aria = null;
         }
+        public void display()
+        {
+            
+        }
     }
     internal class Program
     {
