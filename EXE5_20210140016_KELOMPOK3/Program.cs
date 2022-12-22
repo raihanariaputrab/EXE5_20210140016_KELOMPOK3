@@ -49,7 +49,14 @@ namespace EXE5_20210140016_KELOMPOK3
         }
         public void display()
         {
-            
+            if (raihan == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            Node display;
+            for (display = raihan; display != null; display = display.next)
+                Console.WriteLine(display.name);
         }
     }
     internal class Program
