@@ -13,7 +13,12 @@ namespace EXE5_20210140016_KELOMPOK3
     }
     class queue
     {
-
+        Node raihan, aria;
+        public queue()
+        {
+            raihan = null;
+            aria = null;
+        }
     }
     internal class Program
     {
